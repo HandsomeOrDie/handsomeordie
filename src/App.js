@@ -1,16 +1,15 @@
 import Routes from "./Routes";
 import React, { Component } from "react";
-import { HashRouter } from "react-router-dom";
-import history from "./history";
+import { BrowserRouter } from "react-router-dom";
 
 class App extends Component {
     render() {
         return (
-            <HashRouter history={history}>
+            <BrowserRouter>
                 <div className="container">
                     <Routes type={this.props.type} />
                 </div>
-            </HashRouter>
+            </BrowserRouter>
         );
     }
 }
