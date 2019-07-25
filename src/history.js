@@ -1,2 +1,2 @@
-const createHistory =require("history").createHashHistory;
-export default createHistory();
+import { createBrowserHistory,createHashHistory } from "history";
+export const history = createHashHistory();
