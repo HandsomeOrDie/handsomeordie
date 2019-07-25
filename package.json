@@ -1,12 +1,15 @@
 {
   "name": "handsomeordie",
   "version": "0.1.0",
-  "homepage": "https://handsomeordie.github.io/handsomeordie",
   "private": true,
+  "homepage": "https://handsomeordie.github.io/handsomeordie",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
+    "redux": "^4.0.4",
     "typescript": "^3.5.3"
   },
   "scripts": {
