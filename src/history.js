@@ -1,2 +1,3 @@
-import { createBrowserHistory,createHashHistory } from "history";
-export const history = createHashHistory();
+import { createHashHistory } from "history";
+const history = createHashHistory();
+export default history;
