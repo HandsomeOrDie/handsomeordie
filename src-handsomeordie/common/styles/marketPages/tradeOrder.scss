@@ -1,0 +1,26 @@
+.ant-pagination-item-active a {
+  color: white !important;
+}
+#tradeOrder > .ant-table-content > .ant-table-body {
+  margin: 0;
+}
+#liquidity .ant-select-selection__rendered {
+  line-height: 22px;
+  margin: 0;
+}
+.tradeOrderBox {
+  .ant-pagination {
+    position: absolute;
+    top: -32px;
+    right: 70px;
+    margin: 0 !important;
+    z-index: 999;
+    input {
+      background-color: rgb(59, 63, 66) !important;
+      border: 0 !important;
+    }
+  }
+  .ant-spin-blur {
+    overflow: visible !important;
+  }
+}

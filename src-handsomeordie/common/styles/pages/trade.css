@@ -1,0 +1,50 @@
+.trade_list_head {
+  text-align: center;
+  font-size: 14px;
+}
+
+.trade_list_item, .trade_list_item_second {
+  margin: 0 auto;
+}
+
+.trade_list_item span:nth-child(2),
+.trade_list_item_second span:nth-child(2),
+.trade_list_item_second span:nth-child(3),
+.trade_list_item_second span:nth-child(4) {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/* css */
+.ant-list-item.order_listItem_dark {
+  min-height: 34px;
+}
+
+.order-list-top {
+  border: 1px solid #000;
+  text-align: center;
+}
+
+/* icon */
+.trade_control {
+  width: 30px;
+  height: 30px;
+  font-size: 24px;
+  margin: 0 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.trade_control > img {
+  width: 100%;
+  height: 100%;
+  vertical-align: baseline;
+}
+
+.tradeList .ant-list-bordered {
+  border-radius: 0;
+}
+
+.trade_control_disbled {
+  cursor: not-allowed;
+}

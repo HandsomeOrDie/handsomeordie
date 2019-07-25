@@ -1,0 +1,42 @@
+.assets-data-source {
+  padding-top: 0;
+  width: 500px;
+  .ant-popover-arrow {
+    display: none;
+  }
+  .ant-row {
+    width: 100%;
+  }
+}
+.asset-list {
+  cursor: default;
+}
+
+.ant-select-dropdown-menu {
+  max-height: initial;
+}
+
+.ant-select-dropdown-menu-item {
+  padding: 0;
+}
+
+.infinite-container {
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  overflow: auto;
+  max-height: 200px;
+
+  .ant-list-item {
+    padding: 12px 16px;
+    &:hover {
+      background: #f5f5f5;
+    }
+  }
+}
+
+.loading-container {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  text-align: center;
+}

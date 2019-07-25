@@ -1,0 +1,51 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+:root {
+  --LIGHT_BG: #FFFFFF;
+  --LIGHT_BG2: rgba(255, 255, 255, 0.65);
+  --MASK_COLOR: rgba(0, 0, 0, 0.65);
+  --MODAL_RADIO: #1890ff;
+  --MODAL_INPUT_BG: #fff;
+}
+.qit-select-bg.antCascader {
+  background-color: var(--LIGHT_BG);
+}
+.qit-select-bg .ant-select-selection {
+  background-color: var(--LIGHT_BG);
+}
+.ant-btn {
+  background: var(--LIGHT_BG);
+}
+.ant-table-row-expand-icon {
+  background: var(--LIGHT_BG);
+}
+.ant-modal-mask {
+  background-color: var(--LIGHT_BG2);
+}
+.ant-modal-content {
+  background-color: var(--LIGHT_BG);
+}
+.ant-modal-header {
+  background: var(--LIGHT_BG);
+}
+.ant-modal-content .ant-btn.ant-btn-primary {
+  color: var(--MASK_COLOR);
+}
+.ant-empty-normal .ant-empty-image {
+  display: none;
+}
+.ant-popover-inner {
+  background-color: var(--LIGHT_BG);
+}
+.ant-radio-inner:after {
+  background-color: var(--MODAL_RADIO);
+}
+.ant-input-number {
+  background-color: var(--MODAL_INPUT_BG);
+}
+.ant-table-tbody > tr > td {
+  word-wrap: break-word;
+  word-break: break-all;
+}

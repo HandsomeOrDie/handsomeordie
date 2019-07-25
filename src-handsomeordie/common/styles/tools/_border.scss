@@ -1,0 +1,3 @@
+@mixin border-layout($location) {
+  border-#{$location}: 5px solid $color-layout-border;
+}

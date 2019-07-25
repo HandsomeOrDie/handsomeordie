@@ -1,0 +1,69 @@
+.quo {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  //padding: 5px;
+  .tool-bar {
+    height: 30px;
+    line-height: 30px;
+    background: #525252;
+    .add {
+      margin-left: 15px;
+    }
+  }
+
+  .content {
+    display: flex;
+    flex: 1;
+    padding: 5px;
+    .one {
+      background: #2b2b2b;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      .deep-wrapper {
+        flex: 1;
+      }
+    }
+    .two {
+      margin-left: 5px;
+      background: #2b2b2b;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      .deep-wrapper {
+        flex: 1;
+      }
+    }
+    .three {
+      margin-left: 5px;
+      background: #2b2b2b;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      .deep-wrapper {
+        flex: 1;
+      }
+    }
+    .four {
+      margin-left: 5px;
+      background: #2b2b2b;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      .deep-wrapper {
+        flex: 1;
+      }
+    }
+  }
+
+  .ant-table-thead > tr > th {
+    background: #3b3f42 !important;
+  }
+  .ant-table-thead > tr > th div {
+    background: #3b3f42 !important;
+  }
+  .ant-table-thead > tr > th div svg {
+    background: #3b3f42 !important;
+  }
+}

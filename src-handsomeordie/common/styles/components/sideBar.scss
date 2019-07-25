@@ -1,0 +1,61 @@
+.left-side-bar {
+  @extend .side-bar;
+  @include border-layout('right');
+}
+
+.left-side-bar-link {
+  width: 95px;
+  display: block;
+  padding: 2px 10px;
+  color: $color-white;
+}
+
+.left-side-bar-link:hover {
+  color: $color-login-border;
+}
+
+// left side bar over
+
+.right-side-bar {
+  @extend .side-bar;
+  @include border-layout('left');
+  background: $color-right-side-bar;
+
+  & > ul > .icon:last-child {
+    height: 50px;
+    padding-top: 20px;
+    border-top: 2px solid black;
+  }
+}
+
+$icon-length: 30px;
+
+.side-bar {
+  width: 60px;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+
+  & > ul {
+    list-style: none;
+    padding: 10px 10px;
+
+    .icon {
+      cursor: pointer;
+      margin: 10px 0 20px;
+      width: $icon-length;
+      height: $icon-length;
+
+      & > img {
+        width: 100%;
+        height: 100%;
+        vertical-align: baseline;
+      }
+    }
+
+    .decision-support {
+      height: $icon-length - 10;
+    }
+  }
+}

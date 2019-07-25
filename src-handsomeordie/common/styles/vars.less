@@ -1,0 +1,93 @@
+@import "../../../node_modules/antd/lib/style/themes/default.less";
+
+// @link-color: #00375B;
+// @primary-color: #00375B;
+// @tabs-active-color: #00375B;
+@extra-bg: #FFFFFF;
+@extra-bg-opacity: rgba(255,255,255,0.65);
+@extra-mask-color: rgba(0,0,0,0.65);
+@modal-radio-dark: #1890ff;
+@modal-inputnumber-dark:#fff;
+:root {
+    //--PC: @tabs-active-color; //color.less中加入css原生变量：--PC
+    --LIGHT_BG: @extra-bg;
+    --LIGHT_BG2: @extra-bg-opacity;
+    --MASK_COLOR: @extra-mask-color;
+    --MODAL_RADIO:@modal-radio-dark;
+    --MODAL_INPUT_BG:@modal-inputnumber-dark;
+}
+
+//多级联动菜单
+// .ant-cascader-menus {
+//     background: var(--LIGHT_BG);
+// }
+
+// .ant-cascader-menu .ant-cascader-menu-item:hover{
+//     background: var(--LIGHT_BG);
+// }
+// .ant-cascader-input.ant-input.ant-input-sm{
+//     background-color: var(--LIGHT_BG);
+// }
+// .ant-select-dropdown-menu-item-active{
+//     background: var(--LIGHT_BG);
+// }
+
+.qit-select-bg.antCascader {
+    background-color: var(--LIGHT_BG);
+}
+.qit-select-bg .ant-select-selection{
+    background-color: var(--LIGHT_BG);
+}
+// .ant-select-dropdown-menu-item:hover{
+//     background-color: var(--LIGHT_BG);
+// }
+
+.ant-btn{ background: var(--LIGHT_BG);}
+
+// .ant-select-dropdown-menu-item:last-child,
+// .ant-select-dropdown-menu-item
+// {
+//     background: var(--LIGHT_BG)
+// }
+//
+.ant-table-row-expand-icon{
+    background: var(--LIGHT_BG);
+}
+// 弹框
+.ant-modal-mask{
+    background-color: var(--LIGHT_BG2);
+}
+.ant-modal-content {
+    background-color: var(--LIGHT_BG);
+}
+.ant-modal-header{
+    background: var(--LIGHT_BG);
+}
+.ant-modal-content .ant-btn.ant-btn-primary{
+    color: var(--MASK_COLOR);
+}
+.ant-empty-normal .ant-empty-image {
+    display: none;
+}
+// .ant-message .ant-message-notice{
+//     color: #2B2B2B
+// }
+
+
+//气泡确认框
+.ant-popover-inner{
+    background-color: var(--LIGHT_BG);
+}
+
+//modal radio
+.ant-radio-inner:after{
+background-color: var(--MODAL_RADIO) ;   
+}
+//modal input-number
+.ant-input-number{
+background-color: var( --MODAL_INPUT_BG);
+}
+.ant-table-tbody > tr > td {
+    word-wrap: break-word;
+    word-break: break-all;
+}

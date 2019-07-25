@@ -1,0 +1,90 @@
+.one-rank {
+  height: 50px;
+  color: #333333;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.tow-rank {
+  height: 50px;
+  text-align: center;
+  color: #333333;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 18px;
+}
+
+.tow-rank:hover {
+  cursor: pointer;
+}
+
+.menu-active {
+  background: #FFFFFF;
+}
+
+.left-bar {
+  background: #3F918E;
+  height: 100%;
+  width: 5px;
+}
+
+.menu-name {
+  margin-left: 20px;
+}
+
+.setting-title {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: flex-start;
+  border-bottom: 3px solid #3F918E;
+  color: #333333;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#setting-table .ant-table-thead > tr > th {
+  background: #f2f2f2;
+  color: #333333;
+}
+
+#setting-table .ant-table-tbody > tr:nth-child(even) > td {
+  background: #f2f2f2;
+  color: #333333;
+}
+
+#setting-table .ant-table-tbody > tr:nth-child(odd) > td {
+  background: #ffffff;
+  color: #333333;
+}
+
+#setting-table ::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background-color: #f2f2f2 !important;
+  border: 1px solid transparent;
+}
+
+#setting-table .ant-table-body {
+  background: #797979 !important;
+}
+
+#setting-table .ant-table-placeholder {
+  background: #b8b8b8;
+}
+
+#setting-table .ant-table-thead > tr > th {
+  border-right: 1px solid #797979;
+  border-top: 1px solid #797979;
+  border-left: 1px solid #797979;
+  border-bottom: 0px solid #797979;
+}
+
+#setting-table .ant-table-tbody > tr > td {
+  border: 1px solid #797979;
+}

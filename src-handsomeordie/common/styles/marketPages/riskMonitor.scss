@@ -1,0 +1,53 @@
+.ant-tabs-bar {
+  margin: 0 !important;
+}
+.ant-dropdown-menu{
+  background: #3B3F42 !important;
+}
+.ant-dropdown-menu-item-active{
+  background: #349999 !important;
+}
+//.ant-dropdown-menu-item{
+//  font-size: 12px;
+//}
+.ant-dropdown-link{
+  color: white;
+}
+.ant-dropdown-link:hover{
+  color: white;
+}
+#credit-style > .ant-card-body {
+  padding: 10px !important;
+}
+#pricing-group-click td{
+  display: flex;
+  justify-content: center;
+}
+#pricing-group-click td div {
+  width: 50%;
+}
+.pricing-child td {
+  background: #2B2B2B !important;
+}
+
+#wait {
+  height: 24px
+}
+
+#duration {
+  height: 24px
+}
+
+#slice {
+  height: 24px
+}
+
+#cptySymbol {
+  padding-top: 10px;
+  th {
+    background: #ececec;
+  }
+  .ant-table-body{
+    margin: 0;
+  }
+}

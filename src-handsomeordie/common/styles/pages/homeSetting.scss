@@ -1,0 +1,72 @@
+$setting-height: 45px;
+
+.home-setting {
+  padding: 0 10px;
+  min-width: 300px;
+
+  .setting {
+    display: block;
+    height: $setting-height;
+    line-height: $setting-height;
+  }
+
+  .option {
+    display: flex;
+    flex-direction: column;
+
+    &-content {
+      padding-top: 15px;
+      padding-bottom: 30px;
+
+      .item {
+        display: flex;
+        margin-bottom: 10px;
+
+        .input-wrapper {
+          padding-left: 10px;
+        }
+      }
+
+      .arbitrage-item {
+        display: flex;
+        margin: 10px 0;
+        align-items: center;
+
+        .band {
+          width: 40px;
+          display: block;
+          margin-right: 10px;
+        }
+
+        .band-select {
+          flex: 1;
+        }
+
+        .disable-value {
+          flex: 1;
+          padding-left: 50px;
+          padding-right: 50px;
+        }
+
+      }
+    }
+
+    .generate-signal {
+      width: 85px;
+      margin: 0 auto;
+    }
+  }
+
+  .title {
+    height: 35px;
+    background: #e5f1ff;
+  }
+
+  .title::before {
+    content: ' ';
+    width: 100%;
+    height: 6px;
+    display: block;
+    background: #87bfff;
+  }
+}

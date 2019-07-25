@@ -1,0 +1,10 @@
+
+.rfq-child-table{
+    display: flex;
+    justify-content: flex-end;
+}
+.rfq_bid{color: #00cc99;}
+.rfq_ask{color: #EA4F53;}
+.rfq_bid_ask_index{padding:0 5px;display: inline;}
+
+.ant-table td, .ant-table th { white-space: nowrap; font-size: 12px; padding: 5px !important }

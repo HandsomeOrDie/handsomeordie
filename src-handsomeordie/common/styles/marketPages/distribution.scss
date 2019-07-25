@@ -1,0 +1,40 @@
+.distribution-wrapper {
+    margin-left: 5px;
+    // margin-bottom: 20px;
+
+    .distribution-title {
+        font-size: 18px;
+        font-weight: 700;
+        color: #14698c;
+        white-space: nowrap;
+    }
+
+    .menu-wrapper {
+        font-size: 18px;
+
+        .second-icon {
+            margin-left: 3px;
+        }
+    }
+
+    .list-wrapper {
+        // height: 300px;
+        overflow-x: visible;
+        overflow-y: auto;
+        padding: 3px 3px 3px 3px;
+    }
+
+    .no-data-wrapper {
+        height: 80px;
+        text-align: center;
+        line-height: 80px;
+        border-bottom: 1px solid #222;
+    }
+
+    .hidden {
+        display: none;
+    }
+}
+.qit-tr-disabled{
+    background: red;
+}

@@ -1,0 +1,65 @@
+@charset "UTF-8";
+#root {
+  display: flex;
+  flex: 1;
+}
+
+#root > .container {
+  display: flex;
+  flex: 1;
+}
+
+#root > .container > .darkTheme {
+  display: flex;
+  flex: 1;
+}
+
+.is-weight {
+  font-weight: bold;
+}
+
+.right-angle {
+  border-radius: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.ant-table-header {
+  background-color: initial !important;
+}
+
+/* 滚动条样式 */
+::-webkit-scrollbar {
+  width: 3px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent !important;
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background-color: #434343 !important;
+  border: 1px solid #434343;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+.noBtnNumberInput .ant-input-number-handler-wrap {
+  display: none !important;
+}
+
+.noBtnNumberInput .ant-input-number-input {
+  padding: 0 !important;
+  height: 18px !important;
+}
+
+.ant-input-number-disabled {
+  color: #999999 !important;
+}

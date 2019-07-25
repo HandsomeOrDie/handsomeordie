@@ -1,0 +1,149 @@
+.symbolList 
+{
+    // 红
+    @keyframes redLight {
+        0% {
+          color: #EA4F53
+        }
+        100% {
+          color: #ffffff
+        }
+      }
+      // 绿
+      @keyframes greenLight {
+          0% {
+            color: #00cc99
+          }
+          100% {
+            color: #ffffff
+          }
+        }
+
+    .redLight {
+        -webkit-animation: redLight 1s ease;
+        animation: redLight 1s;
+        animation-iteration-count: 1 ease;
+    }
+    .ant-table-thead > tr > th {
+        border-right: 0 !important;
+    }
+    .greenLight {
+        -webkit-animation: greenLight 1s;
+        animation: greenLight 1s;
+        animation-iteration-count: 1;
+    }
+    .ant-table , .ant-card {
+        box-shadow: none;
+    }
+     .ant-table-tbody > tr:nth-child(even) > td {
+        background: #2b2b2b;
+    }
+
+    .ant-table-tbody{background: #141616;}//lightTheme暂无
+    // .ant-table-tbody > tr > td:nth-child(2),
+    // .ant-table-tbody > tr > td:nth-child(4),
+    // {
+    //     background: #2B2B2B;//lightTheme暂无
+    // }
+    .ant-table-tbody > tr > td
+    {
+        background: #141616;
+        padding: 0px 12px;//有上下箭头
+        text-align: center;
+        height: 50px;
+        border-bottom: 1px solid #141416;
+        padding: 0 5px !important;
+    }
+    .symbolList_groups {
+        margin-top: -1px;
+    }
+    .symbolList_groups .ant-table-thead > tr > th {
+        background: #14698c;
+        border-bottom: 1px solid #000;
+        height: 25px;
+        padding: 0 5px !important;
+    }
+    .ant-table-thead > tr > th {
+        background: #141416;
+        border-bottom: 0;
+    }
+    .ant-table-tbody > tr > td:nth-child(1),
+    .ant-table-thead > tr > th:nth-child(1)
+    {
+        //min-width:85px;
+    }
+    .ant-table-thead > tr > th{ padding: 16px 12px;}
+    th.symbolList_opacity>div{
+    opacity: 0;
+    }
+    // .ant-table-tbody > tr > td:nth-child(3),
+    // .ant-table-tbody > tr > td:nth-child(5),
+    // .symbol_expandedRow .ant-table-tbody > tr > td:nth-child(2),//lightTheme暂无
+    // .symbol_expandedRow .ant-table-tbody > tr > td:nth-child(4),{
+    //     background: #2B2B2B;
+    // }
+    // .symbol_expandedRow .ant-table-tbody > tr > td:nth-child(3),//lightTheme暂无
+    // .symbol_expandedRow .ant-table-tbody > tr > td:nth-child(5),{
+    //     background: #141616;
+    // }
+
+
+    // td.ant-table-row-expand-icon-cell,
+    // .ant-table-thead > tr > th.ant-table-expand-icon-th,
+    // tr.ant-table-expanded-row td:nth-child(1) {
+    //     display: none;
+    // }
+    // tr.ant-table-row td:nth-child(1).symbolList_opacity {
+    //     display: table-cell;
+    // }
+    // .symbol_expandedRow .ant-table-thead > tr > th,
+    // .ant-table-tbody > tr > td
+    // {//子table
+    //     padding: 0px 12px;//有上下箭头
+    //     text-align: center;
+    // }
+    // .ant-table-thead > tr > th{ padding: 16px 12px;}
+
+    // .ant-table-tbody > tr.ant-table-expanded-row > td{//子table作为td
+    //     padding: 16px 16px;
+    // }
+    // th.symbolList_opacity>div{
+    // opacity: 0;
+    // }
+
+    //上下箭头样式
+    .symbolList_up_down{
+        cursor: pointer;
+        height: 12px;
+        i{vertical-align: top;}
+    }
+    .symbolList_caret_up{
+        width: 33px;
+        margin: 0;
+        >div{cursor: pointer;}
+    }
+    .symbolList_color_red{color: #EA4F53}
+    .symbolList_color_green{color: #00cc99}
+    .symbolList_icon{width: auto;}
+    .symbolList_icon i{ cursor: pointer;font-size: 18px; }
+    // .symbolList_icon i:nth-child(1){ margin-right: 10px;}
+    .symbolList_font_size{font-size: 24px;font-weight: 300;}
+    .symbolList_btn{
+        height: 18px;
+        padding: 0;
+        font-size: 12px;
+        width:37px
+    }
+   .btn_reset{margin-bottom: 6px;}
+   .btn_group_reset{background: #141616;}//lightTheme暂无
+}
+.stop-all {
+    background: red;
+}
+.stop-all:hover {
+    cursor: pointer;
+    background: #dd4444;
+}
+#symbol-list-card .ant-card-body{
+    padding: 0 !important;
+}

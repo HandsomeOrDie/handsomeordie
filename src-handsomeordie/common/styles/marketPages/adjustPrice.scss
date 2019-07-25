@@ -1,0 +1,246 @@
+
+.order-book-title{
+    color: #14698C;
+    font-size: 18px;
+    font-weight: bold;
+    height:30px ;
+    line-height: 30px;
+    
+}
+.adjust-price{
+    text-align: center;
+    // margin-right: 3%;
+}
+
+.adjust-price-large-left div:nth-child(2){
+    font-size: 50px;
+    color: #00cc99;
+}
+.adjust-price-large-right div:nth-child(2){
+    font-size: 50px;
+}
+.adjust-price-large-left {
+    color: #00cc99;
+}
+.adjust-price-large-left div:nth-child(1) {
+    font-size: 16px;
+    font-weight: bold;
+}
+.adjust-price-large-right{
+    color: #EA4F53;
+}
+.adjust-price-large-right div:nth-child(1) {
+    font-size: 16px;
+    font-weight: bold;
+}
+// .adjust-price-small-left {
+//     text-align: right;
+//     bottom: 17px;
+// }
+.adjust-price-1{
+    top: -10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    color: #828282;
+}
+.adjust-price-number-left{
+    // top:-40px;
+    color:#04542C;
+}
+.adjust-price-number-right{
+    // top:-40px;
+    color:#8E2003;
+}
+
+// .adjust-price-center{
+//     font-size: 2em;
+// }
+.adjust-price-center {
+    font-size: 20px;
+    text-align: center;
+    color: #828282;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+
+.adjust-bidprice,.adjust-askprice{
+    display: flex;
+    justify-content: center;
+}
+
+.adjust-bidprice div:nth-child(1){
+    font-size: 16px;
+    align-self: center;
+    color: #00cc99;
+}
+
+.adjust-bidprice div:nth-child(3){
+    align-self: center;
+    color:#00cc99;
+    font-size: 16px;
+}
+
+.adjust-askprice div:nth-child(1){
+    align-self: center;
+    color: #EA4F53;
+    font-size: 16px;
+}
+
+.adjust-askprice div:nth-child(3){
+    align-self: center;
+    color:#EA4F53;
+    font-size: 16px;
+}
+
+.spread-flexd-skew{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.spread-flexd-skew div:nth-child(1){
+    width: 40%;
+}
+.spread-flexd-skew div:nth-child(3){
+    width: 40%;
+}
+
+.manual-book{
+    margin:10px 0;
+    height: 219px;
+    overflow-y: auto;
+    padding-bottom: 25px
+}
+.manual-book-price{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1px;
+    // padding-right: 3%;
+    align-items: center;
+}
+
+.manual-book-price-item-bid{
+    width: 30%;
+}
+.manual-book-price-item-bid span{
+    display: inline-block;
+    width: 50%;
+}
+.manual-book-price-item-bid span:nth-child(1){
+    text-align: center;
+}
+.manual-book-price-item-ask{
+    width: 30%;
+}
+.manual-book-price-item-ask span{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+// .manual-book-price-item-ask span:nth-child(2){
+//     text-align: center;
+// }
+.manual-book-price-item-bid-input{
+    width: 15%;
+    text-align: right;
+    // margin-right: 5%;
+}
+.manual-book-price-item-bid-input .ant-input-number {
+    width: 90%;
+}
+.manual-book-price-item-ask-input .ant-input-number{
+    width: 90%;
+}
+.manual-book-price-item-ask-input{
+    width: 15%;
+    // margin-right: 5%;
+}
+
+.order-book-button{
+    text-align: center;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     position: absolute;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background: #1C1D21;
+}
+
+
+//layers
+.layers-set-input{
+    display: flex;
+}
+
+.layers-bid-ask span{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+.layers-set-input .ant-input-number{
+    margin-right: 5px;
+    margin-bottom: 2px;
+}
+
+// stratety book
+.strategy-book{
+    display: flex;
+    justify-content: space-between;
+}
+
+.strategy-book div{
+    align-self: center;
+}
+.strategy-book-symbol{
+    display: inline-block;
+    font-size: 1.5em;
+    // font-weight: bold;
+    margin-right: 15px;
+}
+.strategy-table{
+    // margin-left: 10%;
+    margin:0 auto;
+}
+
+.strategy-table tr td:nth-child(1){
+    display: inline-block;
+    margin-right: 20px;
+
+}
+
+.market-detail-bg{
+    // padding-right: 4px;
+            box-shadow:    0px 0px 0px 0px #000000,   /*上边阴影  */
+      
+                      0px 0px 0px 0px #000000,   /*左边阴影  */
+      
+                      2px 0px 0px -2px  #000000,    /*右边阴影  */
+      
+                      2px 2px 1px 0px  #000000;    /*下边阴影  */
+}
+
+.btn-stop, .btn-halt-nonomal{
+    background-color: #00cc99 !important;
+}
+.btn-start{
+    background-color: #EA4F53 !important;
+}
+
+.layers-fill{
+    display: flex;
+    justify-content: space-between;
+    // margin-right: 3%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+#strategy-select {
+    border: 1px solid white;
+}

@@ -1,0 +1,25 @@
+$icon-length: 20px;
+
+.header {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px 10px;
+  @include border-layout('bottom');
+
+  & > div {
+    margin: 5px;
+  }
+
+  .icon {
+    width: $icon-length;
+    height: $icon-length;
+
+    & > img {
+      width: 100%;
+      height: 100%;
+      vertical-align: baseline;
+    }
+  }
+
+}

@@ -1,0 +1,34 @@
+.setting-icon {
+  font-size: 20px;
+}
+
+.setting-icon:hover {
+  cursor: pointer;
+  color: #b8b8b8;
+}
+.ant-table-expand-icon-th {
+  display: none;
+}
+.ant-table-row-expand-icon-cell {
+  display: none;
+}
+.ant-table-expanded-row-level-1 td:nth-child(1){
+  display: none;
+}
+
+.ant-table td, .ant-table th {
+  //white-space: normal !important;
+}
+
+.arrow-hover:hover {
+  cursor: pointer;
+  color: #b8b8b8;
+}
+
+#clientFlow .ant-collapse-content-box {
+  //padding: 0 !important;
+}
+
+#blotter .ant-collapse-content-box {
+  padding: 0 !important;
+}

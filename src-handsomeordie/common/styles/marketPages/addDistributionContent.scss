@@ -1,0 +1,119 @@
+.add-distribution-content-wrapper {
+    //min-height: 500px;
+
+    input {
+        background-color: inherit;
+        border-radius: 0px;
+        height: 24px;
+        padding: 0px;
+        text-align: center;
+        margin: 0px 3px 0px 0px;
+    }
+
+    .ant-select-selection {
+        background-color: inherit;
+        border-radius: 0px;
+        padding: 0px;
+        font-size: 14px;
+        width: 100%;
+        justify-content: center;
+    }
+    .ant-select-disabled,.ant-input-disabled {
+        opacity: 0.5;
+        color: inherit;
+    }
+    .ant-select-arrow-icon {
+        color: white;
+    }
+    .ant-form-item {
+        margin-bottom: 0px;
+
+        div, span {
+            line-height: normal;
+        }
+    }
+
+    .basic-info-wrapper {
+        table {
+            width: 100%;
+        }
+
+        .info-label {
+            font-size: 16px;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+        .transaction-mode-select {
+            width: 110px;
+        }
+        .info-value-wrapper {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 5px 10px 5px 10px;
+        }
+
+        .display-name-input {
+            width: 180px;
+            text-align: left;
+        }
+        .spread-input {
+            width: 40px;
+        }
+        .skew-input {
+            width: 40px;
+        }
+        .freq-input {
+            width: 40px;
+        }
+        .no-liquidity-select {
+            width: 80px;
+        }
+        .spread-skew-value-wrapper {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            
+            .skew-wrapper {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+        }
+
+        .threshold-info-wrapper {
+            display: flex;
+            flex-direction: row;
+            margin-left: 10px;
+    
+            .threshold-spread-input,.threshold-move-input {
+                margin: 0px 3px 0px 3px;
+                width: 30px;
+                height: 24px;
+                border-radius: 0px;
+                padding: 0px;
+                text-align: center;
+            }
+            .spread-wrapper,.move-wrapper {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+            .move-wrapper {
+                margin-left: 10px;
+            }
+        }
+    }
+
+    .counter-party-setting-wrapper {
+        .counter-setting-title {
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .sub-counter-title {
+            font-size: 16px;
+            opacity: 0.8;
+        }
+    }
+}
