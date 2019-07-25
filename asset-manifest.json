@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/handsomeordie/static/css/main.34de6062.chunk.css",
-    "main.js": "/handsomeordie/static/js/main.80cef2f3.chunk.js",
-    "main.js.map": "/handsomeordie/static/js/main.80cef2f3.chunk.js.map",
+    "main.js": "/handsomeordie/static/js/main.bf5b8ccb.chunk.js",
+    "main.js.map": "/handsomeordie/static/js/main.bf5b8ccb.chunk.js.map",
     "runtime~main.js": "/handsomeordie/static/js/runtime~main.edc600c1.js",
     "runtime~main.js.map": "/handsomeordie/static/js/runtime~main.edc600c1.js.map",
-    "static/js/2.e6616b5c.chunk.js": "/handsomeordie/static/js/2.e6616b5c.chunk.js",
-    "static/js/2.e6616b5c.chunk.js.map": "/handsomeordie/static/js/2.e6616b5c.chunk.js.map",
+    "static/js/2.e71aba0c.chunk.js": "/handsomeordie/static/js/2.e71aba0c.chunk.js",
+    "static/js/2.e71aba0c.chunk.js.map": "/handsomeordie/static/js/2.e71aba0c.chunk.js.map",
     "index.html": "/handsomeordie/index.html",
-    "precache-manifest.2176dd6c1d54482bc882ec193fa7beed.js": "/handsomeordie/precache-manifest.2176dd6c1d54482bc882ec193fa7beed.js",
+    "precache-manifest.c8fe8f1cd5109c117bab8cc6ef7cc3b5.js": "/handsomeordie/precache-manifest.c8fe8f1cd5109c117bab8cc6ef7cc3b5.js",
     "service-worker.js": "/handsomeordie/service-worker.js",
     "static/css/main.34de6062.chunk.css.map": "/handsomeordie/static/css/main.34de6062.chunk.css.map"
   }
