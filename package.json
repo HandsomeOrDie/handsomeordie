@@ -1,7 +1,7 @@
 {
   "name": "handsomeordie",
   "version": "0.1.0",
-  "homepage": "https://handsomeordie.github.io/handsomeordie",
+  "homepage": "http://ghb.daxinghuo.com/",
   "private": true,
   "dependencies": {
     "react": "^16.8.6",
