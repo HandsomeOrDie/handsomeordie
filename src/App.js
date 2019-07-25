@@ -8,7 +8,8 @@ class App extends Component {
         return (
             <HashRouter history={history}>
                 <div className="container">
-                    <Routes type={this.props.type} />
+                  111
+                    {/* <Routes type={this.props.type} /> */}
                 </div>
             </HashRouter>
         );
