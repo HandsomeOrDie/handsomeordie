@@ -1,6 +1,6 @@
 import { combineReducers } from "redux";
+import themeReducer from "../reducers/themeReducer";
 
-import themeReducer from "../../handsomeOrDie/reducers/setTheme";
 const rootReducer = combineReducers({
     // TODO
     themeReducer

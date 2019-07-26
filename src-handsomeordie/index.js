@@ -1,11 +1,9 @@
 
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./marketMaker/App";
-import * as serviceWorker from "./marketMaker/utils/serviceWorker";
+import App from "./handsomeOrDie/App";
+import * as serviceWorker from "./handsomeOrDie/utils/serviceWorker";
 import "antd/dist/antd.css";
-require("./marketMaker/index.scss");
-
 
 ReactDOM.render(<App />, document.getElementById("root"));
 

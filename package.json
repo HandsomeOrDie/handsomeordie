@@ -88,7 +88,9 @@
   "scripts": {
     "start": "node color && node scripts/start.js",
     "build": "node color && node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom"
+    "test": "node scripts/test.js --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

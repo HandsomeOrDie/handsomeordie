@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { Route, Switch, withRouter } from "react-router";
 import { Layout } from "antd";
-import Home from "../../marketMaker/pages/home";
+import Home from "../../handsomeOrDie/pages/home";
 class Routes extends Component {
 
     constructor(props) {
